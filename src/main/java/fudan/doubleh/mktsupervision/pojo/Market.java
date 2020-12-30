@@ -1,5 +1,6 @@
 package fudan.doubleh.mktsupervision.pojo;
 
+
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -82,18 +83,22 @@ public class Market extends User{
                 e.printStackTrace();
             }
 
-            ((MarketTask)task).addCheckRecord(new CheckRecord(this.getId(),proId,outcome, date));
+//            ((MarketTask)task).addCheckRecord(new CheckRecord(this.getId(),proId,outcome, date));
 
+            addCheckRecordByData(task,this.getId(),proId,outcome,date);
             if((task).isFinished()) {
-                System.out.println("该任务已完成");
+//                System.out.println("该任务已完成");
                 return;
             }
         } while (true);
 
+    }
 
-
-
-
+    public void addCheckRecordByData(Task task,Integer marketID,Integer proId,int outcome,Date date){
+        ((MarketTask)task).addCheckRecord(new CheckRecord(marketID,proId,outcome, date));
+        if((task).isFinished()) {
+            System.out.println("该任务已完成");
+        }
     }
 
     public void addTask(Task task){

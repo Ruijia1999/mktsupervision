@@ -1,10 +1,7 @@
 package fudan.doubleh.mktsupervision.service;
 
 import fudan.doubleh.mktsupervision.Main;
-import fudan.doubleh.mktsupervision.pojo.CheckRecord;
-import fudan.doubleh.mktsupervision.pojo.MarketTask;
-import fudan.doubleh.mktsupervision.pojo.Product;
-import fudan.doubleh.mktsupervision.pojo.Task;
+import fudan.doubleh.mktsupervision.pojo.*;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
@@ -66,15 +63,21 @@ public class AuthoritySetMarketTask implements AuthoritySetTask{
             e.printStackTrace();
         }
 
-
-        for(int m: markets){
-            Task marketTask = new MarketTask(Main.marketPool.get(m).getTasks().size(),date, false, products, new ArrayList<CheckRecord>());
-            Main.marketPool.get(m).addTask(marketTask);
-
-        }
+        setTaskByData(markets,null,products,date,Main.marketPool,null);
+//        for(int m: markets){
+//            Task marketTask = new MarketTask(Main.marketPool.get(m).getTasks().size(),date, false, products, new ArrayList<CheckRecord>());
+//            Main.marketPool.get(m).addTask(marketTask);
+//        }
 
         System.out.println("已成功布置农贸市场自检任务,返回上一层\n");
 
 
+    }
+
+    public void setTaskByData(List<Integer> markets,Integer professor, List<Product> products, Date date, MarketPool marketPool,ProfessorPool professorPool){
+        for(int m: markets){
+            Task marketTask = new MarketTask(marketPool.get(m).getTasks().size(),date, false, products, new ArrayList<CheckRecord>());
+            marketPool.get(m).addTask(marketTask);
+        }
     }
 }

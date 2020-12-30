@@ -74,16 +74,23 @@ public class Professor extends User{
                 e.printStackTrace();
             }
 
-            ((ProfessorTask)task).addCheckRecord(new CheckRecord(mktId, proId,outcome,date));
+//            ((ProfessorTask)task).addCheckRecord(new CheckRecord(mktId, proId,outcome,date));
+            addCheckRecordByData(((ProfessorTask)task),mktId,proId,outcome,date);
 
             if(((ProfessorTask)task).isFinished()) {
-                System.out.println("该任务已完成");
+//                System.out.println("该任务已完成");
                 return;
             }
         } while (true);
-
-
     }
+
+    public void addCheckRecordByData(Task task,Integer marketID,Integer proId,int outcome,Date date){
+        ((ProfessorTask)task).addCheckRecord(new CheckRecord(marketID,proId,outcome, date));
+        if((task).isFinished()) {
+            System.out.println("该任务已完成");
+        }
+    }
+
     //处理任务
     public void dealTasks(){
 

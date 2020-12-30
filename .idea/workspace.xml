@@ -1,0 +1,827 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="10df601b-f5b5-4188-a55d-a8e3dfb2a22a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__Arquillian_JUnit_Release.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fudan/doubleh/mktsupervision/pojo/SystemTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fudan/doubleh/mktsupervision/service/IndicatorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fudan/doubleh/mktsupervision/test/MktsupervisionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/SqlMapConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/dao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/fudan/doubleh/mktsupervision/Const.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/fudan/doubleh/mktsupervision/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/fudan/doubleh/mktsupervision/dao/Dao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/fudan/doubleh/mktsupervision/pojo/Authority.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/fudan/doubleh/mktsupervision/pojo/CheckRecord.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/fudan/doubleh/mktsupervision/pojo/Market.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/fudan/doubleh/mktsupervision/pojo/MarketPool.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/fudan/doubleh/mktsupervision/pojo/MarketTask.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/fudan/doubleh/mktsupervision/pojo/Product.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/fudan/doubleh/mktsupervision/pojo/ProductPool.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/fudan/doubleh/mktsupervision/pojo/Professor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/fudan/doubleh/mktsupervision/pojo/ProfessorPool.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/fudan/doubleh/mktsupervision/pojo/ProfessorTask.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/fudan/doubleh/mktsupervision/pojo/ScoreRecord.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/fudan/doubleh/mktsupervision/pojo/SystemTime.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/fudan/doubleh/mktsupervision/pojo/Task.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/fudan/doubleh/mktsupervision/pojo/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/fudan/doubleh/mktsupervision/service/AuthoritySetMarketTask.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/fudan/doubleh/mktsupervision/service/AuthoritySetProfessorTask.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/fudan/doubleh/mktsupervision/service/AuthoritySetTask.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/fudan/doubleh/mktsupervision/service/AuthoriyService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/fudan/doubleh/mktsupervision/service/IndicatorService$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/fudan/doubleh/mktsupervision/service/IndicatorService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/fudan/doubleh/mktsupervision/service/LogInService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/fudan/doubleh/mktsupervision/service/MarketService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/fudan/doubleh/mktsupervision/service/ProfessorService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/fudan/doubleh/mktsupervision/service/Tools.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/fudan/doubleh/mktsupervision/test/MktsupervisionTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fudan/doubleh/mktsupervision/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fudan/doubleh/mktsupervision/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fudan/doubleh/mktsupervision/pojo/Authority.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fudan/doubleh/mktsupervision/pojo/Authority.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fudan/doubleh/mktsupervision/pojo/Market.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fudan/doubleh/mktsupervision/pojo/Market.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fudan/doubleh/mktsupervision/pojo/Professor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fudan/doubleh/mktsupervision/pojo/Professor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fudan/doubleh/mktsupervision/service/AuthoritySetMarketTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fudan/doubleh/mktsupervision/service/AuthoritySetMarketTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fudan/doubleh/mktsupervision/service/AuthoritySetProfessorTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fudan/doubleh/mktsupervision/service/AuthoritySetProfessorTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fudan/doubleh/mktsupervision/service/AuthoritySetTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fudan/doubleh/mktsupervision/service/AuthoritySetTask.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/fudan/doubleh/mktsupervision/pojo/Authority.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="305">
+              <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="56" />
+              <folding>
+                <element signature="e#2255#2330#0" />
+                <element signature="method#checkProductsByData#0;class#Authority#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/fudan/doubleh/mktsupervision/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="181">
+              <caret line="32" column="48" selection-start-line="32" selection-start-column="48" selection-end-line="32" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/fudan/doubleh/mktsupervision/test/MktsupervisionTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+              <folding>
+                <element signature="method#test1#0;class#MktsupervisionTest#0" />
+                <element signature="e#1197#1206#0" expanded="true" />
+                <element signature="method#test2#0;class#MktsupervisionTest#0" />
+                <element signature="e#3611#3620#0" expanded="true" />
+                <element signature="e#4436#5189#1" />
+                <element signature="method#test3#0;class#MktsupervisionTest#0" />
+                <element signature="method#test4#0;class#MktsupervisionTest#0" />
+                <element signature="e#7236#7245#0" expanded="true" />
+                <element signature="method#setTask#0;class#MktsupervisionTest#0" />
+                <element signature="e#7383#7392#0" expanded="true" />
+                <element signature="e#7801#7810#0" expanded="true" />
+                <element signature="method#findTaskID#0;class#MktsupervisionTest#0" />
+                <element signature="method#findTaskID#1;class#MktsupervisionTest#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/fudan/doubleh/mktsupervision/service/IndicatorService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="71" column="27" selection-start-line="71" selection-start-column="27" selection-end-line="71" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#update#0;class#IndicatorService#0" />
+                <element signature="e#2440#2829#0" expanded="true" />
+                <element signature="e#2828#2829#0" expanded="true" />
+                <element signature="method#calcuDays#0;class#IndicatorService#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/fudan/doubleh/mktsupervision/pojo/MarketTask.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="33" column="11" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/fudan/doubleh/mktsupervision/service/AuthoriyService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="32" column="68" selection-start-line="32" selection-start-column="68" selection-end-line="32" selection-end-column="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Arquillian JUnit Test Class" />
+        <option value="JUnit4 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Time</find>
+      <find>scores</find>
+      <find>oldDate</find>
+      <find>Main</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="hex-xi" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/fudan/doubleh/mktsupervision/pojo/Test1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fudan/doubleh/mktsupervision/Test1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fudan/doubleh/mktsupervision/test/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fudan/doubleh/mktsupervision/test/Test1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fudan/doubleh/mktsupervision/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fudan/doubleh/mktsupervision/service/AuthoritySetTask.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fudan/doubleh/mktsupervision/service/AuthoritySetMarketTask.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fudan/doubleh/mktsupervision/pojo/Market.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fudan/doubleh/mktsupervision/service/AuthoritySetProfessorTask.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fudan/doubleh/mktsupervision/pojo/Professor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fudan/doubleh/mktsupervision/pojo/Authority.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fudan/doubleh/mktsupervision/pojo/SystemTime.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fudan/doubleh/mktsupervision/pojo/ProfessorPool.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fudan/doubleh/mktsupervision/service/IndicatorService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fudan/doubleh/mktsupervision/test/MktsupervisionTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="mktsupervision" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mktsupervision" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mktsupervision" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mktsupervision" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mktsupervision" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mktsupervision" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mktsupervision" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mktsupervision" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="fudan.doubleh.mktsupervision.test" />
+      <recent name="fudan.doubleh.mktsupervision" />
+      <recent name="fudan.doubleh.mktsupervision.pojo" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.MktsupervisionTest">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fudan.doubleh.mktsupervision.Main" />
+      <module name="mktsupervision" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fudan.doubleh.mktsupervision.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MktsupervisionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mktsupervision" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fudan.doubleh.mktsupervision.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="fudan.doubleh.mktsupervision.test" />
+      <option name="MAIN_CLASS_NAME" value="fudan.doubleh.mktsupervision.test.MktsupervisionTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MktsupervisionTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mktsupervision" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fudan.doubleh.mktsupervision.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="fudan.doubleh.mktsupervision.test" />
+      <option name="MAIN_CLASS_NAME" value="fudan.doubleh.mktsupervision.test.MktsupervisionTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MktsupervisionTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mktsupervision" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fudan.doubleh.mktsupervision.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="fudan.doubleh.mktsupervision.test" />
+      <option name="MAIN_CLASS_NAME" value="fudan.doubleh.mktsupervision.test.MktsupervisionTest" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MktsupervisionTest.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mktsupervision" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fudan.doubleh.mktsupervision.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="fudan.doubleh.mktsupervision.test" />
+      <option name="MAIN_CLASS_NAME" value="fudan.doubleh.mktsupervision.test.MktsupervisionTest" />
+      <option name="METHOD_NAME" value="test4" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MktsupervisionTest" />
+        <item itemvalue="JUnit.MktsupervisionTest.test4" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.MktsupervisionTest.test2" />
+        <item itemvalue="JUnit.MktsupervisionTest.test1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="10df601b-f5b5-4188-a55d-a8e3dfb2a22a" name="Default Changelist" comment="" />
+      <created>1609222481593</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1609222481593</updated>
+      <workItem from="1609222484533" duration="6700000" />
+      <workItem from="1609289301882" duration="23595000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="MktsupervisionTest - 2020.12.30 at 17h 14m 54s.xml">
+      <configuration name="MktsupervisionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MktsupervisionTest - 2020.12.30 at 17h 15m 04s.xml">
+      <configuration name="MktsupervisionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MktsupervisionTest - 2020.12.30 at 17h 16m 41s.xml">
+      <configuration name="MktsupervisionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MktsupervisionTest - 2020.12.30 at 17h 16m 46s.xml">
+      <configuration name="MktsupervisionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MktsupervisionTest - 2020.12.30 at 17h 16m 49s.xml">
+      <configuration name="MktsupervisionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MktsupervisionTest - 2020.12.30 at 17h 16m 52s.xml">
+      <configuration name="MktsupervisionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MktsupervisionTest - 2020.12.30 at 17h 16m 56s.xml">
+      <configuration name="MktsupervisionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MktsupervisionTest_test4 - 2020.12.30 at 17h 17m 14s.xml">
+      <configuration name="MktsupervisionTest.test4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MktsupervisionTest - 2020.12.30 at 17h 17m 21s.xml">
+      <configuration name="MktsupervisionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MktsupervisionTest - 2020.12.30 at 17h 21m 39s.xml">
+      <configuration name="MktsupervisionTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="30295000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2533512" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.62600535" visible="true" weight="0.28470254" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="11" sideWeight="0.37399465" side_tool="true" visible="true" weight="0.28470254" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49932975" weight="0.3286119" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="完成计时器，和测试用例" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成计时器，和测试用例" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/fudan/doubleh/mktsupervision/service/IndicatorService.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/fudan/doubleh/mktsupervision/service/IndicatorService.java</url>
+          <line>40</line>
+          <properties />
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/fudan/doubleh/mktsupervision/service/IndicatorService.java</url>
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/fudan/doubleh/mktsupervision/service/IndicatorService.java</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/fudan/doubleh/mktsupervision/service/IndicatorService.java</url>
+          <line>50</line>
+          <properties />
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/fudan/doubleh/mktsupervision/service/IndicatorService.java</url>
+          <line>52</line>
+          <properties />
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/fudan/doubleh/mktsupervision/service/IndicatorService.java</url>
+          <line>56</line>
+          <properties />
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="taskId" language="JAVA" />
+        <watch expression="days" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>days</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>taskId</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>products.contains(product)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>task.getId()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>products</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>((MarketTask)task).getProductList()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>task.getEndTime().equals(date)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>((Market)user).getTasks()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>((Market)user).getTasks().get(4)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>((Market)user).getTasks().get(taskId)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/dao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/dictionaries/huangruijia.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="12" lean-forward="true" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/SqlMapConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fudan/doubleh/mktsupervision/pojo/CheckRecord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fudan/doubleh/mktsupervision/pojo/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fudan/doubleh/mktsupervision/pojo/Test1.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/fudan/doubleh/mktsupervision/Test1.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/fudan/doubleh/mktsupervision/pojo/ScoreRecord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fudan/doubleh/mktsupervision/service/Tools.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-266">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/codeDev/java/jdk8/src.zip!/java/util/Date.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="937" column="40" selection-start-line="937" selection-start-column="36" selection-end-line="937" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/uiDesigner.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1254" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://D:/codeDev/java/jdk8/src.zip!/java/io/FileInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="218" column="23" selection-start-line="218" selection-start-column="23" selection-end-line="218" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fudan/doubleh/mktsupervision/dao/Dao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fudan/doubleh/mktsupervision/service/LogInService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="36" column="60" lean-forward="true" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fudan/doubleh/mktsupervision/pojo/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="24" selection-start-line="24" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fudan/doubleh/mktsupervision/pojo/MarketPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fudan/doubleh/mktsupervision/service/MarketService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="24" column="56" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fudan/doubleh/mktsupervision/service/AuthoritySetMarketTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="55" column="14" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fudan/doubleh/mktsupervision/service/AuthoritySetTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fudan/doubleh/mktsupervision/service/AuthoritySetProfessorTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="86" column="5" lean-forward="true" selection-start-line="86" selection-start-column="5" selection-end-line="86" selection-end-column="5" />
+          <folding>
+            <element signature="e#509#518#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fudan/doubleh/mktsupervision/pojo/SystemTime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fudan/doubleh/mktsupervision/pojo/Task.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-20">
+          <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+          <folding>
+            <element signature="e#575#576#0" expanded="true" />
+            <element signature="e#604#605#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fudan/doubleh/mktsupervision/pojo/Professor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="94" column="28" lean-forward="true" selection-start-line="94" selection-start-column="28" selection-end-line="94" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fudan/doubleh/mktsupervision/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="32" column="48" selection-start-line="32" selection-start-column="48" selection-end-line="32" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fudan/doubleh/mktsupervision/service/AuthoriyService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="32" column="68" selection-start-line="32" selection-start-column="68" selection-end-line="32" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fudan/doubleh/mktsupervision/pojo/Authority.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="56" />
+          <folding>
+            <element signature="e#2255#2330#0" />
+            <element signature="method#checkProductsByData#0;class#Authority#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fudan/doubleh/mktsupervision/pojo/Market.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-77">
+          <caret line="128" column="11" selection-start-line="128" selection-start-column="11" selection-end-line="128" selection-end-column="22" />
+          <folding>
+            <element signature="method#checkTasks#0;class#Market#0" />
+            <element signature="e#3330#3331#0" expanded="true" />
+            <element signature="e#3358#3359#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fudan/doubleh/mktsupervision/pojo/ProfessorPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="33" column="36" lean-forward="true" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fudan/doubleh/mktsupervision/pojo/MarketTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="33" column="11" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fudan/doubleh/mktsupervision/service/IndicatorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="71" column="27" selection-start-line="71" selection-start-column="27" selection-end-line="71" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#update#0;class#IndicatorService#0" />
+            <element signature="e#2440#2829#0" expanded="true" />
+            <element signature="e#2828#2829#0" expanded="true" />
+            <element signature="method#calcuDays#0;class#IndicatorService#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fudan/doubleh/mktsupervision/test/MktsupervisionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+          <folding>
+            <element signature="method#test1#0;class#MktsupervisionTest#0" />
+            <element signature="e#1197#1206#0" expanded="true" />
+            <element signature="method#test2#0;class#MktsupervisionTest#0" />
+            <element signature="e#3611#3620#0" expanded="true" />
+            <element signature="e#4436#5189#1" />
+            <element signature="method#test3#0;class#MktsupervisionTest#0" />
+            <element signature="method#test4#0;class#MktsupervisionTest#0" />
+            <element signature="e#7236#7245#0" expanded="true" />
+            <element signature="method#setTask#0;class#MktsupervisionTest#0" />
+            <element signature="e#7383#7392#0" expanded="true" />
+            <element signature="e#7801#7810#0" expanded="true" />
+            <element signature="method#findTaskID#0;class#MktsupervisionTest#0" />
+            <element signature="method#findTaskID#1;class#MktsupervisionTest#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

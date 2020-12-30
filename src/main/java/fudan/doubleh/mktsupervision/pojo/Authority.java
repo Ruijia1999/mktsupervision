@@ -86,29 +86,53 @@ public class Authority extends User{
         }
 
 
-        for(Professor p: Main.professorPool.getProfessorPool().values()){
+//        for(Professor p: Main.professorPool.getProfessorPool().values()){
+//            for(Task t: p.tasks){
+//                for(CheckRecord c: ((ProfessorTask)t).getRecords()){
+//                    if(c.productId==type&&c.checkTime.after(startDate)&&c.checkTime.before(endDate)&&c.outcome==0){
+//                        unqualified++;
+//                    }
+//                }
+//            }
+//        }
+//        for(Market m: Main.marketPool.getMarketPool().values()){
+//            for(Task t: m.tasks){
+//                for(CheckRecord c: ((MarketTask)t).getRecords()){
+//                    if(c.productId==type&&c.checkTime.after(startDate)&&c.checkTime.before(endDate)&&c.outcome==0){
+//                        unqualified++;
+//                    }
+//                }
+//            }
+//        }
+
+        checkProductsByData(type,startDate,endDate,Main.professorPool,Main.marketPool);
+
+//        System.out.println("不合格总数为: "+unqualified);
+        return 0;
+    }
+
+    public int checkProductsByData(int productId,Date startDate,Date endDate,ProfessorPool professorPool,MarketPool marketPool){
+        int unqualified =0;
+        for(Professor p: professorPool.getProfessorPool().values()){
             for(Task t: p.tasks){
                 for(CheckRecord c: ((ProfessorTask)t).getRecords()){
-                    if(c.productId==type&&c.checkTime.after(startDate)&&c.checkTime.before(endDate)&&c.outcome==0){
+                    if(c.productId==productId&&c.checkTime.after(startDate)&&c.checkTime.before(endDate)&&c.outcome==0){
                         unqualified++;
                     }
                 }
             }
         }
-        for(Market m: Main.marketPool.getMarketPool().values()){
+        for(Market m: marketPool.getMarketPool().values()){
             for(Task t: m.tasks){
                 for(CheckRecord c: ((MarketTask)t).getRecords()){
-                    if(c.productId==type&&c.checkTime.after(startDate)&&c.checkTime.before(endDate)&&c.outcome==0){
+                    if(c.productId==productId&&c.checkTime.after(startDate)&&c.checkTime.before(endDate)&&c.outcome==0){
                         unqualified++;
                     }
                 }
             }
         }
-
-
-
         System.out.println("不合格总数为: "+unqualified);
-        return 0;
+        return unqualified;
     }
 
     //下发任务
