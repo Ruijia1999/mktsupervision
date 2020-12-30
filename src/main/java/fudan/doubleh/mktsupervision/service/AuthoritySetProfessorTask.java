@@ -17,7 +17,7 @@ public class AuthoritySetProfessorTask implements AuthoritySetTask{
 
         Scanner scan = new Scanner(System.in);
 
-        List<Market> markets = new ArrayList<Market>();
+        List<Integer> markets = new ArrayList<Integer>();
         List<Product> products = new ArrayList<Product>();
 
         int professor = -1;
@@ -45,7 +45,7 @@ public class AuthoritySetProfessorTask implements AuthoritySetTask{
             if(type==-1) {
                 break;
             }else if(Main.marketPool.ifContains(type)) {
-                markets.add(Main.marketPool.get(type));
+                markets.add(type);
             }else {
                 System.out.println("输入错误，请重新输入");
             }
@@ -78,10 +78,19 @@ public class AuthoritySetProfessorTask implements AuthoritySetTask{
             e.printStackTrace();
         }
 
-        Task professorTask = new ProfessorTask(Main.professorPool.get(professor).getTasks().size(),date, false, markets, products,new ArrayList<CheckRecord>());
-        Main.professorPool.get(professor).addTask(professorTask);
+//        Task professorTask = new ProfessorTask(Main.professorPool.get(professor).getTasks().size(),date, false, markets, products,new ArrayList<CheckRecord>());
+//        Main.professorPool.get(professor).addTask(professorTask);
 
+        setTaskByData(markets,professor,products,date,Main.marketPool,Main.professorPool);
 
         System.out.println("已成功布置专家抽查任务,返回上一层\n");
+    }
+    public void setTaskByData(List<Integer> markets,Integer professor, List<Product> products, Date date, MarketPool marketPool,ProfessorPool professorPool){
+        List<Market> marketList = new ArrayList<Market>();
+        for(int m: markets){
+            marketList.add(marketPool.get(m));
+        }
+        Task professorTask = new ProfessorTask(professorPool.get(professor).getTasks().size(),date, false, marketList, products,new ArrayList<CheckRecord>());
+        professorPool.get(professor).addTask(professorTask);
     }
 }

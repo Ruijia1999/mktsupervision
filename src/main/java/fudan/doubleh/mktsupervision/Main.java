@@ -2,12 +2,10 @@ package fudan.doubleh.mktsupervision;
 
 
 import fudan.doubleh.mktsupervision.pojo.*;
-import fudan.doubleh.mktsupervision.service.AuthoriyService;
-import fudan.doubleh.mktsupervision.service.LogInService;
-import fudan.doubleh.mktsupervision.service.MarketService;
-import fudan.doubleh.mktsupervision.service.ProfessorService;
+import fudan.doubleh.mktsupervision.service.*;
 
 import java.io.IOException;
+import java.util.Date;
 
 public class Main {
 
@@ -24,6 +22,11 @@ public class Main {
         marketPool.get(1).addScores(new ScoreRecord(-20,"未完成"));
 
         int ret=0;
+
+        SystemTime systemTime = new SystemTime(new Date());
+        IndicatorService is = new IndicatorService(systemTime,professorPool.getProfessorPool(),marketPool.getMarketPool());
+        is.run();//开始计时
+
         do{
             ret = LogInService.logIn();
             switch (ret){

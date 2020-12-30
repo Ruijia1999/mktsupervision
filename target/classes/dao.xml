@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="dao">
+    <resultMap id="Professor" type="fudan.doubleh.mktsupervision.pojo.Professor">
+        <id property="id" column="usr_id"/>
+        <result property="name" column="usr_name"/>
+    </resultMap>
+
+    <select id="selectAllProfessors" resultMap="Professor">
+        select usr_id, usr_name from users where usr_class = "pro"
+    </select>
+
+    <resultMap id="Market" type="fudan.doubleh.mktsupervision.pojo.Market">
+        <id property="id" column="usr_id"/>
+        <result property="name" column="usr_name"/>
+    </resultMap>
+
+    <select id="selectAllMarkets" resultMap="Market">
+        select usr_id, usr_name from users where usr_class = "mkt"
+    </select>
+
+    <resultMap id="Authority" type="fudan.doubleh.mktsupervision.pojo.Authority">
+        <id property="id" column="usr_id"/>
+        <result property="name" column="usr_name"/>
+    </resultMap>
+
+    <select id="selectAllAuthorities" resultMap="Authority">
+        select usr_id, usr_name from users where usr_class = "auth"
+    </select>
+
+    <resultMap id="Product" type="fudan.doubleh.mktsupervision.pojo.Product">
+        <id property="id" column="prod_id"/>
+        <result property="name" column="prod_name"/>
+    </resultMap>
+
+    <select id="selectAllProducts" resultMap="Product">
+        select prod_id, prod_name from products
+    </select>
+</mapper>
